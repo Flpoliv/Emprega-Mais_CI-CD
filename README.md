@@ -61,7 +61,7 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 ```bash
 docker compose up -d --build
 ```
-Acesse: 👉 [http://localhost:8081](http://localhost:8081)
+Acesse: 👉 [http://localhost:8080](http://localhost:8080)
 
 ---
 
