@@ -1,11 +1,13 @@
-version: '3.8'
 services:
   emprega-mais-app:
-    build: .
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: emprega-mais
     ports:
-      
-          "8080:8080"
-  environment:
-    SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL}
-    SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
-    SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+      - "8080:8080"   # host:container
+    environment:
+      SPRING_DATASOURCE_URL: ${SPRING_DATASOURCE_URL}
+      SPRING_DATASOURCE_USERNAME: ${SPRING_DATASOURCE_USERNAME}
+      SPRING_DATASOURCE_PASSWORD: ${SPRING_DATASOURCE_PASSWORD}
+    restart: unless-stopped
