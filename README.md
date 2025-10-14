@@ -28,7 +28,7 @@ Para executar a aplicação em ambiente local utilizando containers Docker:
 
 4. **Acessar a aplicação:**
    ```
-   http://localhost:8081
+   http://localhost:8080
    ```
 
 5. **Encerrar o container (quando necessário):**
