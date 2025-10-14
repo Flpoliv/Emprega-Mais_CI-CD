@@ -1,4 +1,4 @@
-# 🏙️ Projeto - Cidades ESGInteligentes
+# 🏙️ Projeto - Emprega Mais – CI/CD com GitHub Actions e Azure
 
 Este projeto apresenta uma aplicação **Java Spring Boot** com integração completa de **DevOps**, incluindo **containerização com Docker**, **integração e deploy contínuos (CI/CD) com GitHub Actions**, e **implantação automatizada no Azure Web App**.
 
